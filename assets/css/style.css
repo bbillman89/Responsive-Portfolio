@@ -175,3 +175,53 @@ input[type=submit]:hover {
 #message {
     height: 250px;
 }
+
+
+/* Large devices */
+@media (max-width: 980px) { 
+    .main-content {
+        width: 575px;
+    }
+
+    ul {
+        padding-right: 20px;
+    }
+}
+
+/* Medium devices */
+@media (max-width: 768px) { 
+    .top-nav {
+        width: 350px;
+    }
+}
+
+/* Small devices */
+@media (max-width: 640px) { 
+    .top-container {
+        flex-direction: column;
+        height: 135px;
+    }
+
+    .top-nav {
+        margin: auto;
+    }
+
+    /* Since my top nav is flex my logo background color isn't filling the width correctly. My nav would need to be redone in order for this to work the way it should. I've added the padding left and right to achieve the look for now. */
+    #logo {
+        padding: 22px 135px;
+    }
+    .main-content {
+        width: 300px;
+    }
+
+    ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    .clearfix {
+        width: 100%;
+    }
+ }
+
+
