@@ -138,6 +138,13 @@ input[type=submit]:hover {
     object-fit: cover;
 }
 
+.gallery iframe{
+    width: 240px;
+    height: 240px;
+    border: none;
+    /* object-fit: cover; */
+}
+
 .gallery h3{
     position: absolute;
     margin: -70px 0px 0px 0px;
